@@ -2,7 +2,7 @@
 
 #Problem Statement:- Calculate Wages till Number of Working Days or Total Working Hours per month is reached and store in array
 #Author:- Balaji Ijjapwar
-#Date:- 14 March 2020
+#Date:- 15 March 2020
 
 #CONSTANTS FOR THE PROGRAM
 IS_PART_TIME=1;
@@ -42,3 +42,4 @@ done
 
 totalSalary=$(( totalWorkHours * EMP_RATE_PER_HR ));
 echo "Daily Wage " ${empDailyWage[@]}
+echo "All keys " ${!empDailyWage[@]}
